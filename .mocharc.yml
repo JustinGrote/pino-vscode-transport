@@ -1,0 +1,4 @@
+require: "tsx"
+bail: true
+exit: true
+spec: "**/*.test.ts"

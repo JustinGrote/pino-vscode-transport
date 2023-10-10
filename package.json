@@ -1,0 +1,33 @@
+{
+  "name": "pino-vscode-transport",
+  "version": "0.0.0-source",
+  "description": "A Pino transport for the VSCode Output Channel and Telemetry",
+  "type": "module",
+  "scripts": {
+    "test": "glob -d --cmd=\"node --loader tsx --test --test-reporter=spec \" \"**/*.test.ts\""
+  },
+  "keywords": [
+    "pino",
+    "log",
+    "vscode",
+    "extension",
+    "logger"
+  ],
+  "author": "Justin Grote @JustinWGrote github.com/JustinGrote",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^10.0.2",
+    "@types/node": "^18.15.13",
+    "@types/vscode": "^1.82.0",
+    "@vscode/test-electron": "^2.3.4",
+    "glob": "^10.3.5",
+    "mocha": "^10.2.0",
+    "pino": "^8.15.1",
+    "pkgroll": "^2.0.0",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "pino-abstract-transport": "^1.1.0"
+  }
+}
